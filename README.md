@@ -92,7 +92,7 @@ Bash
 npm run dev
 Frontend Running at: http://localhost:3000
 
-n
+
 
 👤 Author
 Shirin Mahbuba
@@ -111,4 +111,5 @@ git clone [https://github.com/ShirinMahbuba/quickhire.git](https://github.com/Sh
 cd quickhire
 ##live demo
 quick-hire-bu5o.vercel.app
+
 
