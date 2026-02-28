@@ -44,3 +44,5 @@
 ```bash
 git clone [https://github.com/ShirinMahbuba/quickhire.git](https://github.com/ShirinMahbuba/quickhire.git)
 cd quickhire
+##live demo
+quick-hire-bu5o.vercel.app
