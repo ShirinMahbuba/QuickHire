@@ -35,6 +35,71 @@
 - **Database:** MySQL.
 - **Testing:** Postman for API Verification.
 - **Deployment:** Vercel (Frontend) & Localhost/Railway (Backend).
+## 🚀 Getting Started (How to Run Locally)
+
+Follow these steps to set up the project on your machine.
+
+### 📋 Prerequisites
+* **PHP (>= 8.2)** & **Composer**
+* **Node.js** & **npm**
+* **MySQL** (XAMPP/WAMP recommended)
+
+---
+
+### 🔧 Step 1: Backend Setup (Laravel)
+
+1. **Navigate to the backend directory:**
+   ```bash
+   cd backend
+Install dependencies:
+
+Bash
+composer install
+Configure Environment:
+
+Create .env file: cp .env.example .env
+
+Open .env and set your MySQL database credentials:
+
+Code snippet
+DB_CONNECTION=mysql
+DB_DATABASE=quickhire
+DB_USERNAME=root
+DB_PASSWORD=
+Prepare Database:
+
+Bash
+php artisan key:generate
+php artisan migrate
+Start Server:
+
+Bash
+php artisan serve
+API Running at: http://127.0.0.1:8000
+
+💻 Step 2: Frontend Setup (Next.js)
+Navigate to the frontend directory:
+
+Bash
+cd ../frontend
+Install packages:
+
+Bash
+npm install
+Run Development Server:
+
+Bash
+npm run dev
+Frontend Running at: http://localhost:3000
+
+n
+
+👤 Author
+Shirin Mahbuba
+
+GitHub Profile
+
+[LinkedIn](https://www.linkedin.com/in/shirin-mahbuba-10168b361/)
 
 ---
 
@@ -46,3 +111,4 @@ git clone [https://github.com/ShirinMahbuba/quickhire.git](https://github.com/Sh
 cd quickhire
 ##live demo
 quick-hire-bu5o.vercel.app
+
